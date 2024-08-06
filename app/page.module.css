@@ -1,0 +1,69 @@
+/* styles.module.css */
+.modalStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw; /* Responsive width */
+  max-width: 400px;
+  background-color: var(--mui-background-paper); /* or use specific color if necessary */
+  border-radius: 8px;
+  box-shadow: 24px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid #ddd;
+}
+
+.buttonStyle {
+  border-radius: 8px;
+  text-transform: none;
+  font-weight: bold;
+  background: linear-gradient(135deg, #4caf50 0%, #81c784 100%);
+  color: #fff;
+}
+
+.buttonStyle:hover {
+  background: linear-gradient(135deg, #388e3c 0%, #66bb6a 100%);
+}
+
+.searchField {
+  margin-bottom: 16px;
+  width: 90vw;
+  max-width: 800px;
+}
+
+.inventoryBox {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90vw;
+  max-width: 800px;
+  padding: 16px;
+}
+
+.headerBox {
+  width: 100%;
+  height: auto;
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 16px;
+}
+
+.itemBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 16px;
+  box-shadow: 1px;
+}
